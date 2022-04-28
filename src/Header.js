@@ -53,6 +53,14 @@ function Header() {
             
 
     </div>
+   <Link to="/Xiaomi" >
+    <div className="header__phones">
+    <div className="Xiaomi__mobile">
+      <h2>Xiaomi India</h2>
+    </div>
+    </div>
+    </Link>
+    
    
    
     </div>

@@ -1,0 +1,55 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+    
+}
+.xiaomi__header{
+    display: flex;
+    padding: 10px;
+   align-items: baseline;
+    
+    gap: 2rem;
+    background: #000;
+    color: #FFF;
+    height: 15vh;
+    z-index: 99999;
+}
+.xiaomi__header>img{
+    width: 100px;
+}
+.xiaomi__products,.redmi__products{
+    display:flex;
+    flex-direction: row;
+  width: 100%;
+    background-color: #FFF;
+    padding: 10px ;
+   background-color: aquamarine;
+    position: absolute;
+  left: 100vw;
+  top: 15vh;
+    color: #000;
+    right: 0;
+    justify-content: space-around;
+  
+
+
+  
+}
+.opacity{
+  
+ left: 0vw;
+}
+
+
+.xiaomi__product_1,.redmi__products_1{
+background: #FFF;
+padding: 10px;
+font-size: .6rem;
+text-align: center;
+
+}
+.xiaomi__product_1>h2,.redmi__products_1{
+    font-weight: 400;
+}
+.xiaomi__product_1>img,.redmi__products_1>img{
+    width: 80px;
+}
